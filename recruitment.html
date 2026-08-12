@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tube Boost — Recruitment</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="index.html" aria-label="Tube Boost home">
+          <span class="logoMark" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M12 5v14" stroke="#07101f" stroke-width="2.4" stroke-linecap="round"/>
+              <path d="M6.5 12l5.5 7 5.5-7" stroke="#07101f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span>TUBE BOOST</span>
+        </a>
+
+        <nav class="navLinks" aria-label="Primary navigation">
+          <a href="services.html">Services</a>
+          <a href="results.html">Results</a>
+          <a href="recruitment.html">Recruitment</a>
+        </nav>
+
+        <a class="navCta" href="#apply">Apply Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="heroGrid">
+          <div>
+            <div class="kicker">Recruitment</div>
+            <h1 class="h1">We’re hiring freelancers.</h1>
+            <p class="lead">
+              Join Tube Boost and help grow channels. If you consistently prove you’re excellent at your job,
+              you can be promoted from freelancer to <b>premium freelancer</b>—and eventually to a <b>full-time role</b>.
+            </p>
+
+            <div class="btnRow" style="margin-top:16px;">
+              <a class="btnPrimary" href="#apply">Apply Now</a>
+              <a class="btnGhost" href="#roles">View Roles</a>
+            </div>
+
+            <div style="margin-top:18px; color:var(--muted); font-weight:700;">
+              Promotion path: Freelancer → Premium Freelancer → Full-time Employee
+            </div>
+          </div>
+
+          <div class="card" style="background:rgba(255,255,255,.03);">
+            <div class="kicker" style="margin-bottom:6px;">What happens after you apply?</div>
+            <h3 style="margin:0 0 10px; font-size:18px; font-weight:950;">Simple, performance-based growth</h3>
+            <ul style="margin:0; padding-left:18px; color:var(--muted); line-height:1.7;">
+              <li>We review your application and relevant work.</li>
+              <li>If selected, you start as a freelancer.</li>
+              <li>Prove quality, speed, and results.</li>
+              <li>Get promoted to premium freelancer when you perform.</li>
+              <li>Top performers may be offered full-time employment with more benefits.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roles" class="section">
+      <div class="container">
+        <h2 class="h2">Open Roles</h2>
+        <p class="sublead">Choose the role closest to your skills. We’re open to freelance talent across disciplines.</p>
+
+        <div class="grid3">
+          <article class="miniCard">
+            <h3>Video Editor (Freelance)</h3>
+            <p>Short-form + long-form editing, strong retention, clean transitions, sound polish.</p>
+            <p class="tag">Turnaround • Quality • Retention</p>
+          </article>
+
+          <article class="miniCard">
+            <h3>Thumbnail & Creative Designer</h3>
+            <p>High CTR thumbnails, cohesive branding, fast iterations, data-informed creativity.</p>
+            <p class="tag">CTR • Branding • Iteration</p>
+          </article>
+
+          <article class="miniCard">
+            <h3>Content Strategist / Script Writer</h3>
+            <p>Research-driven scripting, compelling hooks, strong structure, topic authority.</p>
+            <p class="tag">Hooks • Structure • Research</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="apply" class="section">
+      <div class="container">
+        <h2 class="h2">Apply</h2>
+        <p class="sublead">Send your details and a link to your best work. We’ll follow up if there’s a fit.</p>
+
+        <form class="formCard" action="#" method="post">
+          <div class="formGrid">
+            <label class="field">
+              <span>Your Name</span>
+              <input name="name" type="text" placeholder="Jane Doe" required />
+            </label>
+
+            <label class="field">
+              <span>Email</span>
+              <input name="email" type="email" placeholder="you@example.com" required />
+            </label>
+
+            <label class="field">
+              <span>Role You’re Applying For</span>
+              <select name="role" required>
+                <option value="" selected disabled>Select a role</option>
+                <option>Video Editor (Freelance)</option>
+                <option>Thumbnail & Creative Designer</option>
+                <option>Content Strategist / Script Writer</option>
+              </select>
+            </label>
+
+            <label class="field" style="grid-column: 1 / -1;">
+              <span>Portfolio / Samples (links)</span>
+              <input name="portfolio" type="url" placeholder="https://..." />
+              <div class="hint">Drop links to your best work (YouTube, Google Drive, Behance, Figma, etc.).</div>
+            </label>
+
+            <label class="field" style="grid-column: 1 / -1;">
+              <span>Short Message</span>
+              <textarea name="message" rows="5" placeholder="Tell us why you’re a great fit..." required></textarea>
+            </label>
+          </div>
+
+          <div class="formActions">
+            <button class="btnPrimary" type="submit">Submit Application</button>
+            <p class="finePrint">
+              By submitting, you confirm the links provided show work you created and you’re comfortable being contacted.
+            </p>
+          </div>
+        </form>
+
+        <div style="margin-top:16px; color:var(--muted); font-weight:700;">
+          Want faster review? Include measurable results (e.g., average retention, CTR improvements, before/after examples).
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footerRow">
+        <div>
+          <div style="font-weight:900; color:var(--text);">Tube Boost</div>
+          <div style="margin-top:6px;">Freelancers first. Premium performance. Full-time growth.</div>
+        </div>
+        <div class="smallLinks">
+          <a href="services.html">Services</a>
+          <a href="results.html">Results</a>
+          <a href="recruitment.html">Recruitment</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
